@@ -1,7 +1,7 @@
 # E-Commerce Public Dataset Dashboard ✨
 
 <p align="center">
-![E-Commerce Data Dashboard](dashboard.gif)
+ <img src="https://raw.githubusercontent.com/AbdSalehh/Final-Project-Data-Analysis/main/dashboard.gif" alt="Dashboard">
 </p>
 
 ## Setup environment
