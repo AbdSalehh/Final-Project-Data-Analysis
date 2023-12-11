@@ -62,7 +62,7 @@ def create_map_plot(data, plot, img, url, steamlit):
     steamlit.pyplot(fig)
 
 
-geolocation = pd.read_csv('geolocation.csv')
+geolocation = pd.read_csv('https://raw.githubusercontent.com/AbdSalehh/Final-Project-Data-Analysis/main/dashboard/geolocation.csv')
 map_plot_data = geolocation.drop_duplicates(subset='customer_unique_id')
 
 # Load cleaned data
