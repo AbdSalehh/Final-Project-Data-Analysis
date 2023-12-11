@@ -83,7 +83,7 @@ with st.sidebar:
     
     st.title("E-Commerce Alfaduro")
 
-    st.sidebar.image("e-commerce_logo.png", caption="E-Commerce Alfaduro", use_column_width=True, width=150, output_format="PNG")
+    st.sidebar.image("https://raw.githubusercontent.com/AbdSalehh/Final-Project-Data-Analysis/main/dashboard/e-commerce_logo.png", caption="E-Commerce Alfaduro", use_column_width=True, width=150, output_format="PNG")
 
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
