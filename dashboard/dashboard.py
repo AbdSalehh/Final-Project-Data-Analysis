@@ -66,7 +66,7 @@ geolocation = pd.read_csv('https://raw.githubusercontent.com/AbdSalehh/Final-Pro
 map_plot_data = geolocation.drop_duplicates(subset='customer_unique_id')
 
 # Load cleaned data
-all_df = pd.read_csv("main_data.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/AbdSalehh/Final-Project-Data-Analysis/main/dashboard/main_data.csv")
 
 datetime_columns = ["order_purchase_timestamp", "order_estimated_delivery_date"]
 all_df.sort_values(by="order_purchase_timestamp", inplace=True)
