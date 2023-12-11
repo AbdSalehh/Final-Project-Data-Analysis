@@ -7,8 +7,6 @@ import urllib
 from babel.numbers import format_currency
 from forex_python.converter import CurrencyRates
 
-sns.set(style="dark")
-
 # Helper function
 
 def create_daily_orders_df(df):
