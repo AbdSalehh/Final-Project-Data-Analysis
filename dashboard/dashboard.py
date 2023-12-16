@@ -327,7 +327,7 @@ with tabs[3]:
     create_map_plot(map_plot_data, plt, mpimg, urllib, st)
 
     with st.expander("See Explanation - Geolocation"):
-        st.write('Berdasarkan visualisasi yang telah disajikan, terlihat bahwa jumlah pelanggan lebih tinggi di wilayah tenggara dan selatan. Selain itu, data juga mengindikasikan bahwa kota-kota yang menjadi pusat pemerintahan, seperti São Paulo, Rio de Janeiro, Porto Alegre, dan sebagainya, memiliki jumlah pelanggan yang lebih besar.')
+        st.write('Berdasarkan visualisasi yang telah disajikan, terlihat bahwa jumlah pelanggan lebih tinggi di wilayah tenggara dan selatan. Selain itu, data juga mengindikasikan bahwa kota-kota yang menjadi pusat pemerintahan, seperti São Paulo, Rio de Janeiro, dan lain-lain, memiliki jumlah pelanggan yang lebih besar.')
 
 
 st.caption("Copyright © Abd. Saleh")
